@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.typography {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #050505;
+}
+
+.hover:hover {
+  opacity: 0.8;
+}
+
+.active:active {
+  opacity: 0.6;
+}
+
+.w-full {
+  width: 100%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+span {
+  font-weight: 700;
+}
+
+main {
+  max-width: 1560px;
+  min-width: 1280px;
+  height: 100vh;
+  padding: 0px 40px;
+}
+
+header {
+  justify-content: space-between;
+  padding: 8px 0px;
+  gap: 40px;
+}
+
+header nav {
+  gap: 20px;
+}
+
+header nav a {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  opacity: 0.4;
+}
+
+.container--actions {
+  gap: 20px;
+}
+
+.container--language {
+  width: 140px;
+  gap: 8px;
+}
+.container--language p {
+  opacity: 0.6;
+}
+
+.container--language i {
+  font-size: 24px;
+  opacity: 0.6;
+}
+
+.btn-login {
+  width: 160px;
+  height: 54px;
+  border: 1px solid #bbc0c7;
+  border-radius: 64px;
+  background: transparent;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #000;
+  color: #bbc0c7;
+}
+
+section {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.container--left {
+  width: 530px;
+  height: 450px;
+}
+
+.text--welcome {
+  margin-bottom: 12px;
+}
+
+.text--competitive {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 50px;
+  letter-spacing: -0.05em;
+  margin-bottom: 12px;
+  color: #050505;
+}
+
+.text--info {
+  margin-bottom: 20px;
+  width: 420px;
+}
+
+.container--navigation {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.navigation--arena {
+  width: 280px;
+  height: 45px;
+  justify-content: center;
+  font-weight: 500;
+  text-decoration: none;
+  gap: 12px;
+
+  background: radial-gradient(
+    50% 1194.19% at 50% 50%,
+    #1ce4bb 0%,
+    #13be9b 100%
+  );
+  border-radius: 64px;
+}
+
+.navigation--championship {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.hr {
+  width: 800px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    #e6e7e8 54.91%,
+    rgba(230, 231, 232, 0) 93.29%
+  );
+  margin-bottom: 20px;
+}
+
+.text--partners {
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.container--logos {
+  width: 688px;
+  gap: 20px;
+}
+
+.container--rigth {
+  position: relative;
+}
+
+.container--info--game {
+  position: absolute;
+  right: 30px;
+  width: 192px;
+  height: 126px;
+}
+
+.container--img--game {
+  width: 400px;
+  height: 400px;
+  left: 100px;
+  top: 50px;
+  background-color: #13be9b;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.container--img--game img {
+  width: 450px;
+  position: absolute;
+  top: -50px;
+  left: -65px;
+}
